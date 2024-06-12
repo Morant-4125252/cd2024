@@ -591,7 +591,6 @@ doc["add1to100"].bind('click', add)
 <div><span>過程中, 各組員必須將個別的網誌 .md 檔案名稱加上前綴字串, 例如: "學號_" 加上獨一無二的網誌 Slug 字串名稱, 且 Category 使用該組員的學號作為標示. 之後各組統整轉檔時, 才不至於發生相同網誌文章檔案名稱衝突的錯誤, 且從各分組網誌的 Categories 中即可找到各組員所編寫的所有網誌內容.</span></div>
 <br/>
 <h2><span> 利用 NX1872 協同繪製零組件</span></h2>
-<br/>
 <div>
 <p data-immersive-translate-walked="4014970d-da73-4cae-98f8-33457bd843c0">從電腦輔助設計室中的電腦 C:\Program Files\Siemens\NX1872 取得所需的 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 可利用下列 start_USB_nx1872.bat 啟動.</p>
 <p>電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.</p>
@@ -599,8 +598,26 @@ doc["add1to100"].bind('click', add)
 <p>下載<span> </span><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH">Siemens NX1872.7z</a><span> </span>(需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)</p>
 </div>
 </div>
-<br/> <span></span></div>
-<br/><br/></div>
+</div>
+<h1>w6</h1>
+<h4>ODOO, NX, Sourcetree, Github and Replit</h4>
+<p>利用 ODOO PLM, Siemens NX, Sourcetree, Github 分組倉儲與 Replit 打造協同產品開發環境</p>
+<p>下載<span> </span><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH">Siemens NX1872.7z</a><span> </span>(需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)</p>
+<p>下載<span> </span><a href="http://229.cycu.org/SourceTree_portable.7z">Sourcetree_portable.7z</a><span> </span>(需要密碼)</p>
+<p>其他工具包括 CoppeliaSim, SciTE, Portablegit, Putty, Zoomit, Python, Solvespace 以及 Process Explorer 等.</p>
+<p>配置重點: NX, Sourcetree 與 CoppeliaSim 設定檔案與管理分組倉儲的權限, 必須存至可攜系統, 並分別從可攜系統啟動後的命令列中啟動.</p>
+<p>下載<span> </span><a href="https://mde.tw/cd2024/downloads/Solvespace_model%20_2d_for_cd2024_w6.7z">Solvespace_model _2d_for_cd2024_w6.7z</a></p>
+<h2 id="copsim_xml">CoppeliaSim 檔案格式</h2>
+<p>下載<span> </span><a href="https://mde.tw/cd2024/downloads/copsim_midterm_cube2_xml.7z">copsim_midterm_cube2_xml.7z</a></p>
+<ol>
+<li>CoppeliaSim 目前提供二位元與 XML 場景格式</li>
+<li>XML 場景支援儲存為單一檔案或多個模型與影像檔案</li>
+<li>4.5.1 之後的版本, 其設定資料並非在套件目錄, 而是儲存在操作系統的 AppData/Roaming 目錄中</li>
+<li>4.5.1 版儲存為多 XML 檔案格式時, 無法帶出場景中的 png 圖檔, 4.6.0 版之後才修正此一錯誤</li>
+<li>目前能夠支援 IPv4 與 IPv6 網際場景模擬的版本僅修改至 4.5.1 版</li>
+<li>XML 檔案應用廣泛, 協同產品設計過程可能需要利用程式方法處理零組件與模擬場景互相轉換取得的 XML 格式檔案</li>
+</ol>
+</div>
 </div>
 </div>
 </div>
