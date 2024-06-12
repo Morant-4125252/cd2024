@@ -446,9 +446,63 @@ doc["add1to100"].bind('click', add)
 <p></p>
 <p><!-- 程式執行 ouput 區 --></p>
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console1"></textarea></div>
+<h1>W1</h1>
+<div style="width: 100%; height: 100%;">
+<div>
+<span></span>
+<div>
+<h2>2b 建個人課程倉儲</h2>
+<div><span>登入 github.com, 連結到 https://github.com/mdecycu/cmsimde_site, 利用此倉儲作為 Template, 新增一個名稱為 cd2024 的倉儲, 並且將其 main 分支設為網頁根目錄.</span></div>
+<p></p>
+<div><span>https://github.com/mdecycu/cmsimde_site 與 https://github.com/mdecycu/cmsite 的差別為, 目前的 Template 將 cmsimde 當作目錄, 而非 cmsite 中的子模組.</span></div>
+<p></p>
+<div><span>上述建立個人課程 cd2024 倉儲與網站的操作影片, 建立的範例網站為: https://scrum-1.github.io/cd2024/</span></div>
+<p></p>
+<div><span># 下載可攜套件檔案</span></div>
+<div><span>下載可攜程式環境: portable_2024.7z (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB)</span></div>
+<p></p>
+<div><span>下載 miktex-portable.7z (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB)</span></div>
+<p></p>
+<div><span>將個人倉儲 import 至 Replit</span></div>
+<div><span>從 Replit 帳號下方的 Account, Connected Services(連線服務區) 點選 Connect 後, 讓 Github 授權 Replit, 將在 Replit 中的倉儲改版後, 有權限推回 Github. 設定 Replit 與 Github 應用授權的說明影片</span></div>
+<p></p>
+<div><span>在 Replit Editor(編輯器中) 使用 Ctrl + z 執行 undo</span></div>
+<p></p>
+<div><span>在 Replit Editor(編輯器中) 使用 Ctrl + y 執行 redo</span></div>
+<p></p>
+<div><span># 設定 Github 帳號的雙重認證</span></div>
+<div><span>說明如何設定 Github 雙重認證, 其中手機必須先安裝 Github Mobile, 也可以使用 Authy App 作為認證套件, 一旦在 Github 帳號下的 Setting 中的 Password and authentication 啟用雙重認證, 最後必須下載對應的 Recovery codes 並存入隨身碟, 而且要寄到個人的電子郵箱.</span></div>
+<div><span></span></div>
+<h1> w2</h1>
+<div>
+<div></div>
+</div><h2>利用 Github Classroom 指定分組倉儲</h2>
+<br/>
+<div><span>由於各分組網站從 Github Classroom 執行配置, 因此該倉儲位於 mdecd2024 帳號下, 雖然各組組員具備對此分組倉儲改版的權限, 但是若將分組倉儲 import 到 Replit, 因為其倉儲擁有者為 mdecd2024, 因此無法從 Replit accoount 項下進行授權, 但是可以利用 ssh-keygen 建立 .ssh 目錄下的 id_rsa 與 id_rsa.pub, 之後除了將公鑰送到 Github 之外, 還需要在 .ssh 目錄中建立 config, 且將倉儲 .git/config 中的 https 協定改為 SSH.</span></div>
+<br/>
+<div><span>根據上述流程, 可以在 Replit 中以 SSH 模式取得對 Github 帳號下特定倉儲的改版全縣, 只不過 Replit 的免費帳號環境會不定時刪除 /home/runner/.ssh 目錄中的授權資料, 因此若要使用 Replit 維護從 Github Classroom 取得授權的分組倉儲, 必須使用程式方法配置 .ssh 中的 id_rsa 與 config 檔案.</span></div>
+<br/>
+<div><span>範例分組倉儲: https://github.com/mdecd2024/test-ag1</span></div>
+<br/>
+<div><span>期中分組作業名稱甲班為 2a, 乙班期中分組作業名稱則為 2b, 其中甲班第一組組長必須建立名稱為 midag1 的 Team, 讓第一組的組員員加入. 其餘各組的期中報告 Team 名稱則分別為 midag2, midag3 ....</span></div>
+<br/>
+<div><span>至於乙班第一組組長則必須在期中作業 2b 項下, 建立名稱為 midbg1 的 Team, 其餘乙班各組的期中報告 Team 名稱則分別為 midbg2, midbg3 ....</span></div>
+<br/>
+<div><span>說明乙班第一組組長如何建立 midbg1 的過程1</span></div>
+<br/>
+<div><span>說明乙班第一組組長如何建立 midbg1 的過程2</span></div>
+<br/>
+<div><span>待各分組的期中報告 Team 與倉儲全部建立就緒後, 則可後續配合期末作業名稱 2a2 與 2b2, 由甲班各組組長建立 Team finalag1, finalag2 ...., 而乙班組長則建立 Team finalbg1, finalbg2 .... 等.</span></div>
+<br/>
+<div><span>根據上述規劃, 乙班第一分組的期中協同倉儲將位於: https://github.com/mdecd2024/2b-midbg1, 第一組的期中報告網站將位於: https://mdecd2024.github.io/2b-midbg1.</span></div>
+<br/>
+<div><span>至於乙班第一分組的期末協同倉儲將位於: https://github.com/mdecd2024/2b2-finalbg1, 且對應的期末報告網站將位於: https://mdecd2024.github.io/2b2-finalbg1.</span></div>
+</div>
+</div>
+</div>
 <p><!-- ########################################## --></p>
 <h1>w12</h1>
-<p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41123224_nfu_edu_tw/ER5jZgEVxApJqypmGBFdax4BJNbG2FW6NxFic9-lIvCDYw?e=yfddyV">檔案</a></p>
+<p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41123224_nfu_edu_tw/EUNa6jwGAetDhZryK-cMeKoB8BhRHZGpdMilEZpNwdfwkA?e=8oRmoV">零件3</a></p>
 <p>
 <script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"></script>
 </p>
