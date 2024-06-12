@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H1">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,10 +142,35 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">W10 << <a href='W10.html'>Previous</a> <a href='2b 建個人課程倉儲.html'>Next</a> >> 2b 建個人課程倉儲<br /><h1>W1</h1>
-<div style="width: 100%; height: 100%;"><span></span>
-<div>
-<br />W10 << <a href='W10.html'>Previous</a> <a href='2b 建個人課程倉儲.html'>Next</a> >> 2b 建個人課程倉儲</div>
+    <div id="tipue_search_content">期中協同分組報告 << <a href='期中協同分組報告.html'>Previous</a> <a href='w12.html'>Next</a> >> w12<br /><h1>將組員的個人倉儲設為分組倉儲子模組</h1>
+<div><span>cd2024 課程希望將各分組的組員個人網站, 以 submodule 的方式納入各分組倉儲與網站, 設定的指令為:</span></div>
+<br/>
+<div><span>git submodule add 組員的個人倉儲網址 組員的學號</span></div>
+<br/>
+<div><span>例如: 假設組員的 cd2024 個人倉儲位於: https://github.com/scrum-1/cd2024, 且該組員的學號為 41123299, 則該組員必須在進入該組的倉儲目錄後, 執行:</span></div>
+<br/>
+<div><span>git submodule add https://github.com/scrum-1/cd2024.git 41123299</span></div>
+<br/>
+<div><span>如此, Github 帳號為 scrum-1 的組員, 其個人倉儲就會設定為分組倉儲的子模組, 而且是以其學號命名此一子模組的目錄名稱. 這樣設定的好處是: 各組員可以自行管理個人的課程倉儲與網站, 也就是位於其 Github 帳號下的 cd2024, 並且自行決定要整合到分組倉儲與網站的版本. 也能將自己在課程網站的資料, 直接用連結導入分組網站, 無需額外將資料搬進分組倉儲.</span></div>
+<br/>
+<div><span>另外一個使用 Github Classroom 派送分組倉儲的好處, 是 mdecycu 自動成為各分組倉儲的管理者之一, 若各組在改版或解決衝突的過程發生問題, mdecycu 可以協助處理.</span></div>
+<br/>
+<div><span>一旦分組倉儲帶有以各組員學號作為子模組之後, git clone 倉儲必須使用:</span></div>
+<br/>
+<div><span>git clone --recurse-submodules 加上各組的倉儲 URL</span></div>
+<br/>
+<div><span>以第一組期中分組倉儲的 git clone 為例, 並且使用 putty session 名稱 github.com:</span></div>
+<br/>
+<div><span>git clone --recurse-submodules git@github.com:mdecd2024/2b-midbg1.git</span></div>
+<br/>
+<div><span>而且若要在分組倉儲中更新各組員的子模組版本, 則必須更換目錄到該組員的學號目錄中並且使用 git pull origin main, 才能取下該組員其 cd2024 個人倉儲的最新內容. 取下組員資料後, 若要新增提交推送, 則必須再更換目錄回分組倉儲後才能執行.</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><!-- ########################################## --></p>
+<br />期中協同分組報告 << <a href='期中協同分組報告.html'>Previous</a> <a href='w12.html'>Next</a> >> w12</div>
 
     <!-- footer -->
       <div class="container">
