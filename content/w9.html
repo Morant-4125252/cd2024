@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,41 +142,14 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">w8 << <a href='w8.html'>Previous</a> <a href='w9.html'>Next</a> >> w9<br /><h1>心得</h1>
-<div><span>我是問chatgpt ，但發現問題有時候跳針，所以試了很久，要把問題問得非常精確才跑出你所要的資料</span></div>
-<h4>1. 讀取CSV文件</h4>
-<p>我們需要讀取<code>2a_cd2024_midterm.csv</code>和<code>2b_cd2024_midterm.csv</code>文件，這兩個文件包含學號、Github帳號和組別等信息。</p>
-<h4>2. 合併數據</h4>
-<p>我們需要根據學號來合併這兩個文件的數據，確保每個學員的信息完整。</p>
-<h4>3. 生成連結</h4>
-<h4><strong>個人倉儲和網站連結</strong>：根據每個學員的GitHub帳號，生成其個人cd2024倉儲和網站的連結。</h4>
-<h4><strong>組倉儲和網站連結</strong>：根據每個組的組別信息，生成期中報告倉儲和網站的連結。</h4>
-<h4>4. 建立數據結構</h4>
-<p>我們將這些生成的連結放入一個數據結構中，方便後續使用。</p>
-<h4>5. 輸出結果</h4>
-<p>將最終結果輸出到新的CSV文件或其他格式中，以便查看和使用。</p>
-<p>以下是詳細步驟的Python代碼：</p>
-<p>import pandas as pd</p>
-<p># 讀取CSV文件<br/>data_2a = pd.read_csv('/mnt/data/2a_cd2024_midterm.csv')<br/>data_2b = pd.read_csv('/mnt/data/2b_cd2024_midterm.csv')</p>
-<p># 合併數據<br/>merged_data = pd.merge(data_2a, data_2b, on='學號')</p>
-<p># 定義函數來生成連結<br/>def generate_github_repo_link(github_account, repo_name):<br/> return f'https://github.com/{github_account}/{repo_name}'</p>
-<p>def generate_github_pages_link(github_account, repo_name):<br/> return f'https://{github_account}.github.io/{repo_name}/'</p>
-<p># 為每個學員生成倉儲和網站連結<br/>merged_data['cd2024_repo'] = merged_data['Github帳號'].apply(lambda x: generate_github_repo_link(x, 'cd2024'))<br/>merged_data['cd2024_site'] = merged_data['Github帳號'].apply(lambda x: generate_github_pages_link(x, 'cd2024'))</p>
-<p># 為每個組生成期中報告倉儲和網站連結<br/>group_data = merged_data.groupby('組別').first().reset_index()<br/>group_data['midterm_repo'] = group_data['Github帳號'].apply(lambda x: generate_github_repo_link(x, 'midterm_report'))<br/>group_data['midterm_site'] = group_data['Github帳號'].apply(lambda x: generate_github_pages_link(x, 'midterm_report'))</p>
-<p># 合併組的期中報告連結回到原數據<br/>final_data = pd.merge(merged_data, group_data[['組別', 'midterm_repo', 'midterm_site']], on='組別', suffixes=('', '_group'))</p>
-<p># 選擇需要的列<br/>final_data = final_data[['學號', 'Github帳號', '組別', 'cd2024_repo', 'cd2024_site', 'midterm_repo', 'midterm_site']]</p>
-<p># 輸出結果到CSV文件<br/>final_data.to_csv('/mnt/data/final_cd2024_midterm_results.csv', index=False)</p>
-<p>print("完成數據處理並輸出結果到 'final_cd2024_midterm_results.csv'")</p>
-<h4>詳細說明</h4>
-<h4><strong>讀取CSV文件</strong>：使用<code>pandas</code>讀取CSV文件，將數據放入DataFrame中。</h4>
-<h4><strong>合併數據</strong>：根據學號來合併兩個DataFrame，確保每個學員的信息完整。</h4>
-<h4><strong>生成連結</strong>：</h4>
-<h4>個人cd2024倉儲和網站連結：使用GitHub帳號生成。</h4>
-<h4>組期中報告倉儲和網站連結：使用組別信息生成。</h4>
-<h4><strong>建立數據結構</strong>：將生成的連結添加到DataFrame中。</h4>
-<h4><strong>輸出結果</strong>：將最終的數據輸出到新的CSV文件中。</h4>
-<p>這樣做可以確保數據的準確性和一致性，並且利用程式進行處理可以減少人工輸入錯誤。</p>
-<br />w8 << <a href='w8.html'>Previous</a> <a href='w9.html'>Next</a> >> w9</div>
+    <div id="tipue_search_content">心得 << <a href='心得.html'>Previous</a> <a href='w12.html'>Next</a> >> w12<br /><h1>w9</h1>
+<div>
+<div><span> 期中整合</span></div>
+<div><span>影片</span></div>
+<div><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/JkpBokYb9XI" width="560"></iframe></div>
+</div>
+<p><!-- ########################################## --></p>
+<br />心得 << <a href='心得.html'>Previous</a> <a href='w12.html'>Next</a> >> w12</div>
 
     <!-- footer -->
       <div class="container">

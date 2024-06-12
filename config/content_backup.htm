@@ -455,7 +455,7 @@ doc["add1to100"].bind('click', add)
 <p></p>
 <div><span>上述建立個人課程 cd2024 倉儲與網站的操作影片, 建立的範例網站為: https://scrum-1.github.io/cd2024/</span></div>
 <p></p>
-<h2><span> 下載可攜套件檔案</span></h2>
+<h2>下載可攜套件檔案</h2>
 <div><span>下載可攜程式環境: portable_2024.7z (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB)</span></div>
 <p></p>
 <div><span>下載 miktex-portable.7z (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB)</span></div>
@@ -467,11 +467,11 @@ doc["add1to100"].bind('click', add)
 <p></p>
 <div><span>在 Replit Editor(編輯器中) 使用 Ctrl + y 執行 redo</span></div>
 <p></p>
-<h2><span> 設定 Github 帳號的雙重認證</span></h2>
+<h2>設定 Github 帳號的雙重認證</h2>
 <div><span>說明如何設定 Github 雙重認證, 其中手機必須先安裝 Github Mobile, 也可以使用 Authy App 作為認證套件, 一旦在 Github 帳號下的 Setting 中的 Password and authentication 啟用雙重認證, 最後必須下載對應的 Recovery codes 並存入隨身碟, 而且要寄到個人的電子郵箱.</span></div>
 <div><span></span></div>
 <div>
-<h1> w2</h1>
+<h1>w2</h1>
 <div>
 <h4><span>利用 Github Classroom 指定分組倉儲</span></h4>
 <div><span>由於各分組網站從 Github Classroom 執行配置, 因此該倉儲位於 mdecd2024 帳號下, 雖然各組組員具備對此分組倉儲改版的權限, 但是若將分組倉儲 import 到 Replit, 因為其倉儲擁有者為 mdecd2024, 因此無法從 Replit accoount 項下進行授權, 但是可以利用 ssh-keygen 建立 .ssh 目錄下的 id_rsa 與 id_rsa.pub, 之後除了將公鑰送到 Github 之外, 還需要在 .ssh 目錄中建立 config, 且將倉儲 .git/config 中的 https 協定改為 SSH.</span></div>
@@ -493,7 +493,7 @@ doc["add1to100"].bind('click', add)
 <div><span>根據上述規劃, 乙班第一分組的期中協同倉儲將位於: https://github.com/mdecd2024/2b-midbg1, 第一組的期中報告網站將位於: https://mdecd2024.github.io/2b-midbg1.</span></div>
 <br/>
 <div>至於乙班第一分組的期末協同倉儲將位於: https://github.com/mdecd2024/2b2-finalbg1, 且對應的期末報告網站將位於: <a href="https://mdecd2024.github.io/2b2-finalbg1">https://mdecd2024.github.io/2b2-finalbg1</a>.</div>
-<h1> w3</h1>
+<h1>w3</h1>
 <div>
 <h4 id="latex">期中協同分組報告</h4>
 <p>請參考<span> </span><a href="https://github.com/mdecd2024/test-ag1">https://github.com/mdecd2024/test-ag1</a><span> </span>中的 latex 目錄與 downloads 目錄中的<span> </span><a href="https://github.com/mdecd2024/test-ag1/blob/main/downloads/report_github.txt">https://github.com/mdecd2024/test-ag1/blob/main/downloads/report_github.txt</a></p>
@@ -505,7 +505,7 @@ doc["add1to100"].bind('click', add)
 <p><a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf">2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf</a><span> </span>or<span> </span><a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf">local</a><span> </span>download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)</p>
 <p>英文單字查詢:<span> </span><a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html">2021_odoo_reading.html</a></p>
 <br/>
-<h2><span> 將組員的個人倉儲設為分組倉儲子模組</span></h2>
+<h2>將組員的個人倉儲設為分組倉儲子模組</h2>
 <div><span>cd2024 課程希望將各分組的組員個人網站, 以 submodule 的方式納入各分組倉儲與網站, 設定的指令為:</span></div>
 <br/>
 <div><span>git submodule add 組員的個人倉儲網址 組員的學號</span></div>
@@ -527,7 +527,7 @@ doc["add1to100"].bind('click', add)
 <div><span>git clone --recurse-submodules git@github.com:mdecd2024/2b-midbg1.git</span></div>
 <br/>
 <div><span>而且若要在分組倉儲中更新各組員的子模組版本, 則必須更換目錄到該組員的學號目錄中並且使用 git pull origin main, 才能取下該組員其 cd2024 個人倉儲的最新內容. 取下組員資料後, 若要新增提交推送, 則必須再更換目錄回分組倉儲後才能執行.</span></div>
-<h1><span> w4</span></h1>
+<h1>w4</h1>
 <div>
 <h4><span> Odoo 參考文章中英並列</span></h4>
 <div><span>教學影片: 以第六組為例, 利用 Codespaces 維護倉儲內容</span></div>
@@ -536,18 +536,18 @@ doc["add1to100"].bind('click', add)
 <br/>
 <div><span>教學影片: 如何利用 Gitpod 加上 token 取得分組倉儲權限</span></div>
 <br/>
-<h2><span> w4 2b 分組任務</span></h2>
+<h2>w4 2b 分組任務</h2>
 <div><span>請各組自行搜尋前面已經發布的教學影片, 分別</span></div>
 <br/>
 <div><span>在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上</span></div>
 <div><span>從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排</span></div>
 <div><span>並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點</span></div>
 <br/>
-<h2><span> Github 個人與分組倉儲的維護方式</span></h2>
+<h2>Github 個人與分組倉儲的維護方式</h2>
 <div><span>個人的倉儲名稱為 cd2024, 而期中的分組倉儲位於 mdecd2024 帳號下, 以2a 開頭, 加上 "-" 之後再補上 midag + 組別, 且各組員的 cd2024 個人倉儲必須設為各分組倉儲的子模組, 目的在各組員可以自行管理並維護自己的課程倉儲, 並決定要引入分組倉儲的內容版次.</span></div>
 <br/>
 <div><span>各組員與分組倉儲的資料, 包括文字資料 (含 LaTeX 報告章節資料)、零組件檔案、零件工程圖或組立圖檔 (含 BOM 與爆炸圖), 以及目前正在整理的教學影片, 或者是各學員將操作流程錄製成的影片或 Wink 資料.</span></div>
-<h1><span> W5</span></h1>
+<h1>W5</h1>
 <div>
 <div><span></span>
 <div><span></span>
@@ -574,14 +574,14 @@ doc["add1to100"].bind('click', add)
 <div class="fluid-width-video-wrapper"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="150" id="fitvid416590" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-tSx_Vg6kfk?si=4UL2fLBHAyaN7opl" title="YouTube video player" width="300"></iframe></div>
 </div>
 <br/>
-<h2><span> w5 2b 分組任務</span></h2>
+<h2>w5 2b 分組任務</h2>
 <div><span>請各組自行搜尋前面已經發布的教學影片, 分別</span></div>
 <br/>
 <div><span>在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上</span></div>
 <div><span>從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排</span></div>
 <div><span>並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點</span></div>
 <br/>
-<h2><span> 如何統整組員子模組中的協同設計網誌</span></h2>
+<h2>如何統整組員子模組中的協同設計網誌</h2>
 <div><span>當各組員每週的協同設計網誌文章放在個別的 cd2024 倉儲的 markdown 目錄中, 只要修改分組倉儲中的 pelicalconf.py, 使用 Pelican 設定中的 PATH 與 OUTPUT_PATH 變數, 指定網誌統整目錄, 就可以在分組倉儲中納入所有組員在子模組中所編寫的協同網誌.</span></div>
 <br/>
 <div><span>實際的設定操作 pelicanconf_py.txt, 是利用 pelicanconf.py 中的程式設定段, 將子模組中 markdown 目錄的 .md 動態複製到分組倉儲中的 combined_directory, 並避開分組倉儲與學員子模組倉儲中的 pages 目錄下的 .md 檔案後, 再進行網誌轉檔, 並且所產生的網誌超文件將存入所設定的 blog 目錄.</span></div>
@@ -590,7 +590,7 @@ doc["add1to100"].bind('click', add)
 <br/>
 <div><span>過程中, 各組員必須將個別的網誌 .md 檔案名稱加上前綴字串, 例如: "學號_" 加上獨一無二的網誌 Slug 字串名稱, 且 Category 使用該組員的學號作為標示. 之後各組統整轉檔時, 才不至於發生相同網誌文章檔案名稱衝突的錯誤, 且從各分組網誌的 Categories 中即可找到各組員所編寫的所有網誌內容.</span></div>
 <br/>
-<h2><span> 利用 NX1872 協同繪製零組件</span></h2>
+<h2>利用 NX1872 協同繪製零組件</h2>
 <div>
 <p data-immersive-translate-walked="4014970d-da73-4cae-98f8-33457bd843c0">從電腦輔助設計室中的電腦 C:\Program Files\Siemens\NX1872 取得所需的 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 可利用下列 start_USB_nx1872.bat 啟動.</p>
 <p>電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.</p>
@@ -607,7 +607,7 @@ doc["add1to100"].bind('click', add)
 <p>其他工具包括 CoppeliaSim, SciTE, Portablegit, Putty, Zoomit, Python, Solvespace 以及 Process Explorer 等.</p>
 <p>配置重點: NX, Sourcetree 與 CoppeliaSim 設定檔案與管理分組倉儲的權限, 必須存至可攜系統, 並分別從可攜系統啟動後的命令列中啟動.</p>
 <p>下載<span> </span><a href="https://mde.tw/cd2024/downloads/Solvespace_model%20_2d_for_cd2024_w6.7z">Solvespace_model _2d_for_cd2024_w6.7z</a></p>
-<h2 id="copsim_xml">CoppeliaSim 檔案格式</h2>
+<h2>CoppeliaSim 檔案格式</h2>
 <p>下載<span> </span><a href="https://mde.tw/cd2024/downloads/copsim_midterm_cube2_xml.7z">copsim_midterm_cube2_xml.7z</a></p>
 <ol>
 <li>CoppeliaSim 目前提供二位元與 XML 場景格式</li>
@@ -626,18 +626,15 @@ doc["add1to100"].bind('click', add)
 <br/>
 <div><span>2b step1 取出資料放入數列</span></div>
 <br/>
-<h2><span> 心得</span></h2>
+<h2>心得</h2>
 <div><span>我是問chatgpt ，但發現問題有時候跳針，所以試了很久，要把問題問得非常精確才跑出你所要的資料</span></div>
-</div>
 <h4>1. 讀取CSV文件</h4>
 <p>我們需要讀取<code>2a_cd2024_midterm.csv</code>和<code>2b_cd2024_midterm.csv</code>文件，這兩個文件包含學號、Github帳號和組別等信息。</p>
 <h4>2. 合併數據</h4>
 <p>我們需要根據學號來合併這兩個文件的數據，確保每個學員的信息完整。</p>
 <h4>3. 生成連結</h4>
-<ul>
-<li><strong>個人倉儲和網站連結</strong>：根據每個學員的GitHub帳號，生成其個人cd2024倉儲和網站的連結。</li>
-<li><strong>組倉儲和網站連結</strong>：根據每個組的組別信息，生成期中報告倉儲和網站的連結。</li>
-</ul>
+<h4><strong>個人倉儲和網站連結</strong>：根據每個學員的GitHub帳號，生成其個人cd2024倉儲和網站的連結。</h4>
+<h4><strong>組倉儲和網站連結</strong>：根據每個組的組別信息，生成期中報告倉儲和網站的連結。</h4>
 <h4>4. 建立數據結構</h4>
 <p>我們將這些生成的連結放入一個數據結構中，方便後續使用。</p>
 <h4>5. 輸出結果</h4>
@@ -654,28 +651,20 @@ doc["add1to100"].bind('click', add)
 <p># 選擇需要的列<br/>final_data = final_data[['學號', 'Github帳號', '組別', 'cd2024_repo', 'cd2024_site', 'midterm_repo', 'midterm_site']]</p>
 <p># 輸出結果到CSV文件<br/>final_data.to_csv('/mnt/data/final_cd2024_midterm_results.csv', index=False)</p>
 <p>print("完成數據處理並輸出結果到 'final_cd2024_midterm_results.csv'")</p>
-<div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium">
-<div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span></span></div>
-</div>
 <h4>詳細說明</h4>
-<ol>
-<li><strong>讀取CSV文件</strong>：使用<code>pandas</code>讀取CSV文件，將數據放入DataFrame中。</li>
-<li><strong>合併數據</strong>：根據學號來合併兩個DataFrame，確保每個學員的信息完整。</li>
-<li><strong>生成連結</strong>：
-<ul>
-<li>個人cd2024倉儲和網站連結：使用GitHub帳號生成。</li>
-<li>組期中報告倉儲和網站連結：使用組別信息生成。</li>
-</ul>
-</li>
-<li><strong>建立數據結構</strong>：將生成的連結添加到DataFrame中。</li>
-<li><strong>輸出結果</strong>：將最終的數據輸出到新的CSV文件中。</li>
-</ol>
+<h4><strong>讀取CSV文件</strong>：使用<code>pandas</code>讀取CSV文件，將數據放入DataFrame中。</h4>
+<h4><strong>合併數據</strong>：根據學號來合併兩個DataFrame，確保每個學員的信息完整。</h4>
+<h4><strong>生成連結</strong>：</h4>
+<h4>個人cd2024倉儲和網站連結：使用GitHub帳號生成。</h4>
+<h4>組期中報告倉儲和網站連結：使用組別信息生成。</h4>
+<h4><strong>建立數據結構</strong>：將生成的連結添加到DataFrame中。</h4>
+<h4><strong>輸出結果</strong>：將最終的數據輸出到新的CSV文件中。</h4>
 <p>這樣做可以確保數據的準確性和一致性，並且利用程式進行處理可以減少人工輸入錯誤。</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+<h1>w9</h1>
+<div>
+<div><span> 期中整合</span></div>
+<div><span>影片</span></div>
+<div><span>&lt;</span><span>iframe</span><span> </span><span>width</span><span>=</span><span>"560"</span><span> </span><span>height</span><span>=</span><span>"315"</span><span> </span><span>src</span><span>=</span><span>"https://www.youtube.com/embed/JkpBokYb9XI?si=-4GIkYO2z7XBiEMI"</span><span> </span><span>title</span><span>=</span><span>"YouTube video player"</span><span> </span><span>frameborder</span><span>=</span><span>"0"</span><span> </span><span>allow</span><span>=</span><span>"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"</span><span> </span><span>referrerpolicy</span><span>=</span><span>"strict-origin-when-cross-origin"</span><span> </span><span>allowfullscreen</span><span>&gt;&lt;/</span><span>iframe</span><span>&gt;</span></div>
 </div>
 <p><!-- ########################################## --></p>
 <h1>w12</h1>
@@ -683,3 +672,10 @@ doc["add1to100"].bind('click', add)
 <p>
 <script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"></script>
 </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
