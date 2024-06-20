@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123224協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-29T14:39:31+08:00</updated><entry><title>w12 41123224</title><link href="./w12%2041123224.html" rel="alternate"></link><published>2024-05-16T14:40:00+08:00</published><updated>2024-05-29T14:07:14+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-05-16:./w12 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第十二週, 教學內容為NX 零組件繪圖&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123224協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-20T15:40:00+08:00</updated><entry><title>w18 41123224</title><link href="./w18%2041123224.html" rel="alternate"></link><published>2024-06-20T15:40:00+08:00</published><updated>2024-06-20T07:34:55+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-06-20:./w18 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第十八週, 教學內容為NX 零組件繪圖&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;協同產品設計實習的第十八週, 教學內容為NX 零組件繪圖&lt;/p&gt;
+
+&lt;p&gt;# 更新w17 h3
+ 模擬影片
+ https://youtu.be/AyX1g7_RXvE&lt;/p&gt;</content><category term="w18 41123224"></category><category term="更新w17 h3 41123224"></category></entry><entry><title>w12 41123224</title><link href="./w12%2041123224.html" rel="alternate"></link><published>2024-05-16T14:40:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-05-16:./w12 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第十二週, 教學內容為NX 零組件繪圖&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第十二週, 教學內容為NX 零組件繪圖&lt;/p&gt;
 
 
 &lt;h1&gt;NX 零組件繪圖&lt;/h1&gt;
 &lt;p&gt;零件
-https://nfuedu-my.sharepoint.com/:u:/g/personal/41123224_nfu_edu_tw/ER5jZgEVxApJqypmGBFdax4BJNbG2FW6NxFic9-lIvCDYw?e=Dyfbpo&lt;/p&gt;</content><category term="w12 41123224"></category><category term="建個人課程倉儲 41123224"></category></entry><entry><title>w10 41123224</title><link href="./w10%2041123224.html" rel="alternate"></link><published>2024-04-25T16:04:00+08:00</published><updated>2024-05-29T14:39:31+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-04-25:./w10 41123224.html</id><summary type="html">&lt;p&gt;W10 起 Replit 已經可以用來維護分組倉儲&lt;/p&gt;
+https://nfuedu-my.sharepoint.com/:u:/g/personal/41123224_nfu_edu_tw/ER5jZgEVxApJqypmGBFdax4BJNbG2FW6NxFic9-lIvCDYw?e=Dyfbpo&lt;/p&gt;</content><category term="w12 41123224"></category><category term="建個人課程倉儲 41123224"></category></entry><entry><title>w10 41123224</title><link href="./w10%2041123224.html" rel="alternate"></link><published>2024-04-25T16:04:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-04-25:./w10 41123224.html</id><summary type="html">&lt;p&gt;W10 起 Replit 已經可以用來維護分組倉儲&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W10 起 Replit 已經可以用來維護分組倉儲&lt;/p&gt;
 
 
@@ -57,13 +62,13 @@ https://nfuedu-my.sharepoint.com/:u:/g/personal/41123224_nfu_edu_tw/ER5jZgEVxApJ
 &lt;p&gt;開啟可攜程式系統中的 CoppeliaSim 開啟鋼球平衡台模擬場景 啟動可攜程式系統, pip install keyboard cbor pyzmq matplotlib 在 SciTE 中執行上列程式, 確定系統穩定後, 按下 q 終止模擬 matplotlib 將畫出鋼球在平台上的 x 與 y 座標圖&lt;/p&gt;
 &lt;h1&gt;鋼球平衡台零組件繪圖&lt;/h1&gt;
 &lt;h2&gt;這是 W10 實習的任務三:&lt;/h2&gt;
-&lt;p&gt;請根據 Solvespace_model _2d_for_cd2024_w6.7z 零組件尺寸, 利用 Siemens NX1872.7z (需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872) 執行零組件繪圖, 完成後請將過程影片放入個人與分組網站中.&lt;/p&gt;</content><category term="w10 41123224"></category><category term="建立各班學員的倉儲、網站與分組連結 41123224"></category></entry><entry><title>w9 41123224</title><link href="./w9%2041123224.html" rel="alternate"></link><published>2024-04-18T15:02:00+08:00</published><updated>2024-05-29T14:07:14+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-04-18:./w9 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖&lt;/p&gt;
+&lt;p&gt;請根據 Solvespace_model _2d_for_cd2024_w6.7z 零組件尺寸, 利用 Siemens NX1872.7z (需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872) 執行零組件繪圖, 完成後請將過程影片放入個人與分組網站中.&lt;/p&gt;</content><category term="w10 41123224"></category><category term="建立各班學員的倉儲、網站與分組連結 41123224"></category></entry><entry><title>w9 41123224</title><link href="./w9%2041123224.html" rel="alternate"></link><published>2024-04-18T15:02:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-04-18:./w9 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖&lt;/p&gt;
 
 
 &lt;h1&gt;期中整合&lt;/h1&gt;
 &lt;p&gt;影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JkpBokYb9XI?si=-4GIkYO2z7XBiEMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="w9 41123224"></category><category term="教學影片分組整理並自評 41123224"></category></entry><entry><title>w8 41123224</title><link href="./w8%2041123224.html" rel="alternate"></link><published>2024-04-11T15:07:00+08:00</published><updated>2024-05-29T14:25:09+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-04-11:./w8 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第八週, 協同產品設計實習的專案實習, 透過 ChatGPT、Gemini 1.5 Pro 與 Claude 3 的協助下進行&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JkpBokYb9XI?si=-4GIkYO2z7XBiEMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="w9 41123224"></category><category term="教學影片分組整理並自評 41123224"></category></entry><entry><title>w8 41123224</title><link href="./w8%2041123224.html" rel="alternate"></link><published>2024-04-11T15:07:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-04-11:./w8 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第八週, 協同產品設計實習的專案實習, 透過 ChatGPT、Gemini 1.5 Pro 與 Claude 3 的協助下進行&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第八週, 協同產品設計實習的專案實習, 透過 ChatGPT、Gemini 1.5 Pro 與 Claude 3 的協助下進行&lt;/p&gt;
 
 
@@ -72,7 +77,7 @@ https://nfuedu-my.sharepoint.com/:u:/g/personal/41123224_nfu_edu_tw/ER5jZgEVxApJ
 &lt;p&gt;過程中, 請詳細說明各組及學員的倉儲與網站中的連結資料如何建立? 手動輸入? 利用程式進行處理? 或者採分工合作方式建立?&lt;/p&gt;
 &lt;p&gt;2b step1 取出資料放入數列&lt;/p&gt;
 &lt;h1&gt;心得&lt;/h1&gt;
-&lt;p&gt;我是問chatgpt ，但發現問題有時候跳針，所以試了很久，要把問題問得非常精確才跑出你所要的資料&lt;/p&gt;</content><category term="w8 41123224"></category><category term="協同資料處理 41123224"></category></entry><entry><title>w6 41123224</title><link href="./w6%204112324.html" rel="alternate"></link><published>2024-03-28T15:47:00+08:00</published><updated>2024-05-29T14:07:14+08:00</updated><author><name>NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式. 41123224</name></author><id>tag:None,2024-03-28:./w6 4112324.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第六週, 說明協同 NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式.&lt;/p&gt;
+&lt;p&gt;我是問chatgpt ，但發現問題有時候跳針，所以試了很久，要把問題問得非常精確才跑出你所要的資料&lt;/p&gt;</content><category term="w8 41123224"></category><category term="協同資料處理 41123224"></category></entry><entry><title>w6 41123224</title><link href="./w6%204112324.html" rel="alternate"></link><published>2024-03-28T15:47:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式. 41123224</name></author><id>tag:None,2024-03-28:./w6 4112324.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第六週, 說明協同 NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第六週, 說明協同 NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式.&lt;/p&gt;
 
 
@@ -104,7 +109,7 @@ https://nfuedu-my.sharepoint.com/:u:/g/personal/41123224_nfu_edu_tw/ER5jZgEVxApJ
 &lt;p&gt;https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/14-collaboration-using-git/index.html&lt;/p&gt;
 &lt;p&gt;https://www.linkedin.com/pulse/power-collaborative-development-git-esteban-bocic-bravo-&lt;/p&gt;
 &lt;p&gt;https://medium.com/@syantien/understanding-git-the-core-of-collaborative-software-development-aedd65fac66&lt;/p&gt;
-&lt;p&gt;https://www.ximian.org/2023/10/version-control-with-git-best-practices-for-collaborative-software-development/&lt;/p&gt;</content><category term="w6 41123224"></category><category term="同說明協24"></category></entry><entry><title>w5 41123224</title><link href="./w5%2041123224.html" rel="alternate"></link><published>2024-03-21T15:02:00+08:00</published><updated>2024-05-29T14:07:14+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-03-21:./w5 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖&lt;/p&gt;
+&lt;p&gt;https://www.ximian.org/2023/10/version-control-with-git-best-practices-for-collaborative-software-development/&lt;/p&gt;</content><category term="w6 41123224"></category><category term="同說明協24"></category></entry><entry><title>w5 41123224</title><link href="./w5%2041123224.html" rel="alternate"></link><published>2024-03-21T15:02:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-03-21:./w5 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖&lt;/p&gt;
 
 
@@ -171,7 +176,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;h1&gt;Odoo PLM&lt;/h1&gt;
 &lt;p&gt;Odoo PLM&lt;/p&gt;
 &lt;p&gt;2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf or local download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)&lt;/p&gt;
-&lt;p&gt;英文單字查詢: 2021_odoo_reading.html&lt;/p&gt;</content><category term="w5 41123224"></category><category term="教學影片分組整理並自評 41123224"></category></entry><entry><title>w4 41123224</title><link href="./w4%2041123224.html" rel="alternate"></link><published>2024-03-14T14:31:00+08:00</published><updated>2024-05-29T14:07:14+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-03-14:./w4 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
+&lt;p&gt;英文單字查詢: 2021_odoo_reading.html&lt;/p&gt;</content><category term="w5 41123224"></category><category term="教學影片分組整理並自評 41123224"></category></entry><entry><title>w4 41123224</title><link href="./w4%2041123224.html" rel="alternate"></link><published>2024-03-14T14:31:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-03-14:./w4 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
 
 
@@ -186,7 +191,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點&lt;/p&gt;
 &lt;h1&gt;Github 個人與分組倉儲的維護方式&lt;/h1&gt;
 &lt;p&gt;個人的倉儲名稱為 cd2024, 而期中的分組倉儲位於 mdecd2024 帳號下, 以2a 開頭, 加上 "-" 之後再補上 midag + 組別, 且各組員的 cd2024 個人倉儲必須設為各分組倉儲的子模組, 目的在各組員可以自行管理並維護自己的課程倉儲, 並決定要引入分組倉儲的內容版次.&lt;/p&gt;
-&lt;p&gt;各組員與分組倉儲的資料, 包括文字資料 (含 LaTeX 報告章節資料)、零組件檔案、零件工程圖或組立圖檔 (含 BOM 與爆炸圖), 以及目前正在整理的教學影片, 或者是各學員將操作流程錄製成的影片或 Wink 資料.&lt;/p&gt;</content><category term="w4 41123224"></category><category term="定任務需求與分工時序"></category><category term="隨著各組協同設計流程的進行 41123224"></category></entry><entry><title>w3 41123224</title><link href="./w3%2041123224.html" rel="alternate"></link><published>2024-03-09T14:30:00+08:00</published><updated>2024-05-29T14:07:14+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-03-09:./w3 41123224.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
+&lt;p&gt;各組員與分組倉儲的資料, 包括文字資料 (含 LaTeX 報告章節資料)、零組件檔案、零件工程圖或組立圖檔 (含 BOM 與爆炸圖), 以及目前正在整理的教學影片, 或者是各學員將操作流程錄製成的影片或 Wink 資料.&lt;/p&gt;</content><category term="w4 41123224"></category><category term="定任務需求與分工時序"></category><category term="隨著各組協同設計流程的進行 41123224"></category></entry><entry><title>w3 41123224</title><link href="./w3%2041123224.html" rel="alternate"></link><published>2024-03-09T14:30:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-03-09:./w3 41123224.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 
 
@@ -210,7 +215,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;p&gt;git clone --recurse-submodules 加上各組的倉儲 URL&lt;/p&gt;
 &lt;p&gt;以第一組期中分組倉儲的 git clone 為例, 並且使用 putty session 名稱 github.com:&lt;/p&gt;
 &lt;p&gt;git clone --recurse-submodules git@github.com:mdecd2024/2b-midbg1.git&lt;/p&gt;
-&lt;p&gt;而且若要在分組倉儲中更新各組員的子模組版本, 則必須更換目錄到該組員的學號目錄中並且使用 git pull origin main, 才能取下該組員其 cd2024 個人倉儲的最新內容. 取下組員資料後, 若要新增提交推送, 則必須再更換目錄回分組倉儲後才能執行.&lt;/p&gt;</content><category term="w3 41123224"></category><category term="將組員倉儲設為分組倉儲的子模組 41123224"></category></entry><entry><title>w2 41123224</title><link href="./w2%2041123224.html" rel="alternate"></link><published>2024-02-29T15:08:00+08:00</published><updated>2024-05-29T14:07:14+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-02-29:./w2 41123224.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第二週, 主要利用 Github Classroom 進行分組, 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
+&lt;p&gt;而且若要在分組倉儲中更新各組員的子模組版本, 則必須更換目錄到該組員的學號目錄中並且使用 git pull origin main, 才能取下該組員其 cd2024 個人倉儲的最新內容. 取下組員資料後, 若要新增提交推送, 則必須再更換目錄回分組倉儲後才能執行.&lt;/p&gt;</content><category term="w3 41123224"></category><category term="將組員倉儲設為分組倉儲的子模組 41123224"></category></entry><entry><title>w2 41123224</title><link href="./w2%2041123224.html" rel="alternate"></link><published>2024-02-29T15:08:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-02-29:./w2 41123224.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第二週, 主要利用 Github Classroom 進行分組, 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第二週, 主要利用 Github Classroom 進行分組, 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 
 
@@ -224,7 +229,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;p&gt;說明乙班第一組組長如何建立 midbg1 的過程2&lt;/p&gt;
 &lt;p&gt;待各分組的期中報告 Team 與倉儲全部建立就緒後, 則可後續配合期末作業名稱 2a2 與 2b2, 由甲班各組組長建立 Team finalag1, finalag2 ...., 而乙班組長則建立 Team finalbg1, finalbg2 .... 等.&lt;/p&gt;
 &lt;p&gt;根據上述規劃, 乙班第一分組的期中協同倉儲將位於: https://github.com/mdecd2024/2b-midbg1, 第一組的期中報告網站將位於: https://mdecd2024.github.io/2b-midbg1.&lt;/p&gt;
-&lt;p&gt;至於乙班第一分組的期末協同倉儲將位於: https://github.com/mdecd2024/2b2-finalbg1, 且對應的期末報告網站將位於: https://mdecd2024.github.io/2b2-finalbg1.&lt;/p&gt;</content><category term="w2 41123224"></category><category term="Github Classroom 指定分組倉儲 41123224"></category></entry><entry><title>w1 41123224</title><link href="./w1%2041123224.html" rel="alternate"></link><published>2024-02-22T15:07:00+08:00</published><updated>2024-05-29T14:07:14+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-02-22:./w1 41123224.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用&lt;/p&gt;
+&lt;p&gt;至於乙班第一分組的期末協同倉儲將位於: https://github.com/mdecd2024/2b2-finalbg1, 且對應的期末報告網站將位於: https://mdecd2024.github.io/2b2-finalbg1.&lt;/p&gt;</content><category term="w2 41123224"></category><category term="Github Classroom 指定分組倉儲 41123224"></category></entry><entry><title>w1 41123224</title><link href="./w1%2041123224.html" rel="alternate"></link><published>2024-02-22T15:07:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-02-22:./w1 41123224.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用&lt;/p&gt;
 
 
@@ -240,7 +245,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;p&gt;在 Replit Editor(編輯器中) 使用 Ctrl + z 執行 undo&lt;/p&gt;
 &lt;p&gt;在 Replit Editor(編輯器中) 使用 Ctrl + y 執行 redo&lt;/p&gt;
 &lt;h1&gt;設定 Github 帳號的雙重認證&lt;/h1&gt;
-&lt;p&gt;說明如何設定 Github 雙重認證, 其中手機必須先安裝 Github Mobile, 也可以使用 Authy App 作為認證套件, 一旦在 Github 帳號下的 Setting 中的 Password and authentication 啟用雙重認證, 最後必須下載對應的 Recovery codes 並存入隨身碟, 而且要寄到個人的電子郵箱.&lt;/p&gt;</content><category term="w1 41123224 02"></category><category term="建個人課程倉儲 41123224"></category></entry><entry><title>2024 Spring 課程 41123224</title><link href="./2024-Spring-w1-blog-tutorial%2041123224.html" rel="alternate"></link><published>2024-02-18T11:06:00+08:00</published><updated>2024-05-29T14:07:14+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial 41123224.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+&lt;p&gt;說明如何設定 Github 雙重認證, 其中手機必須先安裝 Github Mobile, 也可以使用 Authy App 作為認證套件, 一旦在 Github 帳號下的 Setting 中的 Password and authentication 啟用雙重認證, 最後必須下載對應的 Recovery codes 並存入隨身碟, 而且要寄到個人的電子郵箱.&lt;/p&gt;</content><category term="w1 41123224 02"></category><category term="建個人課程倉儲 41123224"></category></entry><entry><title>2024 Spring 課程 41123224</title><link href="./2024-Spring-w1-blog-tutorial%2041123224.html" rel="alternate"></link><published>2024-02-18T11:06:00+08:00</published><updated>2024-06-20T07:22:52+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial 41123224.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
