@@ -618,14 +618,13 @@ doc["add1to100"].bind('click', add)
 <li>XML 檔案應用廣泛, 協同產品設計過程可能需要利用程式方法處理零組件與模擬場景互相轉換取得的 XML 格式檔案</li>
 </ol>
 <h1>w8</h1>
-<div>
 <div><span>協同資料處理</span></div>
 <div><span>根據 2a_cd2024_midterm.csv, 以及 2b_cd2024_midterm.csv 中的學號、Github 帳號與組別, 設法在各組員與分組網站中, 列出各學員的 cd2024 倉儲、網站, 以及各班各組的期中報告倉儲與網站連結.</span></div>
-<br/>
+<h4></h4>
 <div><span>過程中, 請詳細說明各組及學員的倉儲與網站中的連結資料如何建立? 手動輸入? 利用程式進行處理? 或者採分工合作方式建立?</span></div>
-<br/>
+<h4></h4>
 <div><span>2b step1 取出資料放入數列</span></div>
-<br/>
+<h4></h4>
 <h2>心得</h2>
 <div><span>我是問chatgpt ，但發現問題有時候跳針，所以試了很久，要把問題問得非常精確才跑出你所要的資料</span></div>
 <h4>1. 讀取CSV文件</h4>
@@ -721,6 +720,29 @@ doc["add1to100"].bind('click', add)
 <p><!-- ########################################## --></p>
 <h1>w12</h1>
 <p>NX零組件:<a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41123224_nfu_edu_tw/EUNa6jwGAetDhZryK-cMeKoB8BhRHZGpdMilEZpNwdfwkA?e=8oRmoV">零件3</a></p>
+<h1>w13</h1>
+<h4>2a w13 第一個教學影片:</h4>
+<div class="fluid-width-video-wrapper"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="150" id="fitvid897837" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Cy3j6n0a9wQ?si=WSisWDId_Tl6qWNo" title="YouTube video player" width="300"></iframe></div>
+<p>我們經常提起 Windows 64 位元操作系統環境下的所謂可攜程式系統, 其時主要的考量是希望所開發的工具不僅能在 Microsoft Windows 環境中使用, 同時也能在<span> </span><a href="https://en.wikipedia.org/wiki/Linux">Linux</a><span> </span>(這裡指<span> </span><a href="https://ubuntu.com/">Ubuntu 操作系統</a>) 以及<span> </span><a href="https://en.wikipedia.org/wiki/MacOS">macOS</a><span> </span>(<a href="https://en.wikipedia.org/wiki/Berkeley_Software_Distribution">BSD 系統</a>) 中執行.</p>
+<p>無論是<span> </span><a href="http://229.cycu.org/Portable_2024.7z">Portable_2024.7z</a><span> </span>或者最新釋出專用於<span> </span><a href="https://community.sw.siemens.com/s/question/0D54O000061xWZcSAM/nx-june-2019-functional-release-nx-1872-series-is-available-for-download">NX1872</a>(2019.06 釋出, 目前已經不再更新) 用來開發 NXOpen Python 程式的可攜環境:<span> </span><a href="http://229.cycu.org/Python_for_NX1872.7z">Python_for_NX1872.7z</a>, 都是在這樣的架構下產生.</p>
+<p>由於數位裝置與網路的無所不在, 產品設計工程師必須能在任何地方進行輔助設計與內容管理, 更重要的是過程中所產生的數位資料必須儘可能在產品生命週期間放置在保全度較高的設備中, 於是對於面對手機、平板與電腦前面的工程師, 必須能將數位資料送到近端環境與雲端環境中的資料中心.</p>
+<p>另外一個重點是, 隨著 AI 工具的普及, 雲端產品協同設計將成為主流, 各項系統設計與應用將逐一結合近端與雲端裝置, 成為無所不在的設計整合環境, 因此工程師除了應用既有的輔助設計套件外, 還要學習如何打造自己團隊使用的協同產品設計工具, 以下為兩個簡單的範例:</p>
+<p><a href="http://229.cycu.org:9447/?semester=1121&amp;classid=%E8%A8%AD%E4%BA%8C%E7%94%B2">http://229.cycu.org:9447/?semester=1121&amp;classid=設二甲</a><span> </span>可以從教務主機擷取各學年的班級課表, 程式碼位於<span> </span><a href="https://gist.githubusercontent.com/mdecycu/aaced903b90465ed1718edb68e3d10a6/raw/cfce17938843e1f9a9be75d0cf2c2dee7c702291/nfulist_2024_v2.py">nfulist_v2_2024.py</a>, 此套件可以用於機械產品開發過程, 透過雲端程式即時擷取在設計運算或參數選擇時, 動態從其他零組件協同供應商或設計便覽伺服器中擷取所需的資料.</p>
+<p><a href="http://229.cycu.org:88/">http://229.cycu.org:88</a><span> </span>則是一個線上多人猜數字遊戲, 採用 Python 與 Javascript 結合<span> </span><a href="https://en.wikipedia.org/wiki/WebSocket">WebSocket</a><span> </span>編寫, 使用者輸入姓名後, 可以同步參與多人猜數字遊戲, 每一階段各用戶只能最多猜 10 次, 每一輪優勝者可得一分. 程式碼位於<span> </span><a href="https://gist.githubusercontent.com/mdecycu/aaced903b90465ed1718edb68e3d10a6/raw/cfce17938843e1f9a9be75d0cf2c2dee7c702291/guess_game_server.py">guess_game_server.py</a><span> </span>與<span> </span><a href="https://gist.githubusercontent.com/mdecycu/aaced903b90465ed1718edb68e3d10a6/raw/cfce17938843e1f9a9be75d0cf2c2dee7c702291/guess_game.html">guess_game.html</a>.</p>
+<p></p>
+<h2>利用零件 Hole 產生對應 Cylinder 元件</h2>
+<div>利用夠深的零件孔壁中的各節點, 可以在 Shape Editor 模式下建立 Cylinder 元件, 其步驟如下:
+<ol>
+<li>選擇帶有 Hole (可能必須夠深) 的零件.</li>
+<li>利用 CoppeliaSim 左側的 Shape Editor 按鈕, 將場景轉換為 Shape Editor 模式.</li>
+<li>利用滑鼠中鍵滑動, 將場景正對所要生成 Cylinder 元件的孔位置, 然後利用滑鼠中間的滾輪將孔儘量拉近.</li>
+<li>利用滑鼠左鍵將 Shape Editor 出現的內建視窗, 從 Triangle edit mode, 轉為 Vertex edit mode, 然後左手按住 Shift, 右手滑鼠左鍵按下後, 從左上至右下的位置涵蓋整個孔的位置.</li>
+<li>將 Shape Editor 模式的 Vertex edit mode 切回 Triangle edit mode, 然後利用 Extract Clinder 功能, 針對上列步驟所選到的 Vertex(圓孔的內壁點座標) 作為依據, 建立一個圓柱體 (Cylinder) 元件.</li>
+<li>關閉 Shape Editor 內建表單視窗後, 選擇 Yes 或 No 都可完成上述從孔的內壁點座標生成圓柱體的步驟.</li>
+</ol>
+<p>以下教學影片說明上述說明, 以 STL 零組件格式轉入 CoppeliaSim 建立場景:</p>
+<div class="fluid-width-video-wrapper"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="150" id="fitvid491289" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-0mbtk1AuoY?si=9gsEqlCoK0x91p5W" title="YouTube video player" width="300"></iframe>利用 batch 開啟電腦的 port</div>
+</div>
 <h1>w17</h1>
 <h2>h1</h2>
 <p>python連結:<a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41123224_nfu_edu_tw/Efg3djaEWm1Ak5SyFCZWM_0BXyyuqgUhjphovQmygthNCw?e=PpL9SC">journal.py</a></p>
@@ -737,7 +759,6 @@ doc["add1to100"].bind('click', add)
 <p>
 <script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"></script>
 </p>
-</div>
 </div>
 </div>
 </div>

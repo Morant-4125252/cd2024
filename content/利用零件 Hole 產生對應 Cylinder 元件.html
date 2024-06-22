@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H1">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,15 +142,20 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">利用 NX1872 協同繪製零組件 << <a href='利用 NX1872 協同繪製零組件.html'>Previous</a> <a href='CoppeliaSim 檔案格式.html'>Next</a> >> CoppeliaSim 檔案格式<br /><h1>w6</h1>
-<h4>ODOO, NX, Sourcetree, Github and Replit</h4>
-<p>利用 ODOO PLM, Siemens NX, Sourcetree, Github 分組倉儲與 Replit 打造協同產品開發環境</p>
-<p>下載<span> </span><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH">Siemens NX1872.7z</a><span> </span>(需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)</p>
-<p>下載<span> </span><a href="http://229.cycu.org/SourceTree_portable.7z">Sourcetree_portable.7z</a><span> </span>(需要密碼)</p>
-<p>其他工具包括 CoppeliaSim, SciTE, Portablegit, Putty, Zoomit, Python, Solvespace 以及 Process Explorer 等.</p>
-<p>配置重點: NX, Sourcetree 與 CoppeliaSim 設定檔案與管理分組倉儲的權限, 必須存至可攜系統, 並分別從可攜系統啟動後的命令列中啟動.</p>
-<p>下載<span> </span><a href="https://mde.tw/cd2024/downloads/Solvespace_model%20_2d_for_cd2024_w6.7z">Solvespace_model _2d_for_cd2024_w6.7z</a></p>
-<br />利用 NX1872 協同繪製零組件 << <a href='利用 NX1872 協同繪製零組件.html'>Previous</a> <a href='CoppeliaSim 檔案格式.html'>Next</a> >> CoppeliaSim 檔案格式</div>
+    <div id="tipue_search_content">w13 << <a href='w13.html'>Previous</a> <a href='w17.html'>Next</a> >> w17<br /><h1>利用零件 Hole 產生對應 Cylinder 元件</h1>
+<div>利用夠深的零件孔壁中的各節點, 可以在 Shape Editor 模式下建立 Cylinder 元件, 其步驟如下:
+<ol>
+<li>選擇帶有 Hole (可能必須夠深) 的零件.</li>
+<li>利用 CoppeliaSim 左側的 Shape Editor 按鈕, 將場景轉換為 Shape Editor 模式.</li>
+<li>利用滑鼠中鍵滑動, 將場景正對所要生成 Cylinder 元件的孔位置, 然後利用滑鼠中間的滾輪將孔儘量拉近.</li>
+<li>利用滑鼠左鍵將 Shape Editor 出現的內建視窗, 從 Triangle edit mode, 轉為 Vertex edit mode, 然後左手按住 Shift, 右手滑鼠左鍵按下後, 從左上至右下的位置涵蓋整個孔的位置.</li>
+<li>將 Shape Editor 模式的 Vertex edit mode 切回 Triangle edit mode, 然後利用 Extract Clinder 功能, 針對上列步驟所選到的 Vertex(圓孔的內壁點座標) 作為依據, 建立一個圓柱體 (Cylinder) 元件.</li>
+<li>關閉 Shape Editor 內建表單視窗後, 選擇 Yes 或 No 都可完成上述從孔的內壁點座標生成圓柱體的步驟.</li>
+</ol>
+<p>以下教學影片說明上述說明, 以 STL 零組件格式轉入 CoppeliaSim 建立場景:</p>
+<div class="fluid-width-video-wrapper"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="150" id="fitvid491289" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-0mbtk1AuoY?si=9gsEqlCoK0x91p5W" title="YouTube video player" width="300"></iframe></div>
+</div>
+<br />w13 << <a href='w13.html'>Previous</a> <a href='w17.html'>Next</a> >> w17</div>
 
     <!-- footer -->
       <div class="container">
