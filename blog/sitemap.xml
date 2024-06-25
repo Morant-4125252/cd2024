@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-06-22T08:47:34-00:00</lastmod>
+<lastmod>2024-06-25T13:03:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-06-22T08:47:34-00:00</lastmod>
+<lastmod>2024-06-25T13:03:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-06-22T08:47:34-00:00</lastmod>
+<lastmod>2024-06-25T13:03:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-06-22T08:47:34-00:00</lastmod>
+<lastmod>2024-06-25T13:03:32-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./w18 學習AI心得 41123224.html</loc>
+<lastmod>2024-06-25T13:03:26+08:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -193,6 +200,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./category/w18-xue-xi-aixin-de-41123224.html</loc>
+<lastmod>2024-06-25T16:58:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./category/w2-41123224.html</loc>
 <lastmod>2024-06-20T07:22:52+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -237,6 +251,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./category/w9-41123224.html</loc>
 <lastmod>2024-06-20T07:22:52+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/xue-xi-aixin-de-41123224.html</loc>
+<lastmod>2024-06-25T16:58:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -341,7 +362,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/41123224.html</loc>
-<lastmod>2024-06-22T08:47:17+08:06</lastmod>
+<lastmod>2024-06-25T16:58:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
