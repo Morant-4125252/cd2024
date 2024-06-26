@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-06-26T15:19:21-00:00</lastmod>
+<lastmod>2024-06-26T15:21:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-06-26T15:19:21-00:00</lastmod>
+<lastmod>2024-06-26T15:21:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-06-26T15:19:21-00:00</lastmod>
+<lastmod>2024-06-26T15:21:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-06-26T15:19:21-00:00</lastmod>
+<lastmod>2024-06-26T15:21:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./w18 學習AI心得 41123224.html</loc>
-<lastmod>2024-06-26T15:18:53+08:00</lastmod>
+<lastmod>2024-06-26T15:21:07+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -201,7 +201,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/w18-xue-xi-aixin-de-41123224.html</loc>
-<lastmod>2024-06-26T15:18:53+08:06</lastmod>
+<lastmod>2024-06-26T15:21:07+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -257,7 +257,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/xue-xi-aixin-de-41123224.html</loc>
-<lastmod>2024-06-26T15:18:53+08:06</lastmod>
+<lastmod>2024-06-26T15:21:07+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -362,7 +362,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/41123224.html</loc>
-<lastmod>2024-06-26T15:18:53+08:06</lastmod>
+<lastmod>2024-06-26T15:21:07+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

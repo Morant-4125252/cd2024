@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123224協同產品設計 - w18 學習AI心得 41123224</title><link href="./" rel="alternate"></link><link href="./feeds/w18-xue-xi-aixin-de-41123224.atom.xml" rel="self"></link><id>./</id><updated>2024-06-26T15:18:53+08:00</updated><entry><title>Learning ai 41123224</title><link href="./w18%20%E5%AD%B8%E7%BF%92AI%E5%BF%83%E5%BE%97%2041123224.html" rel="alternate"></link><published>2024-06-25T16:58:00+08:00</published><updated>2024-06-26T15:18:53+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-06-25:./w18 學習AI心得 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第十八週, 自我反思，這學期學到甚麼&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123224協同產品設計 - w18 學習AI心得 41123224</title><link href="./" rel="alternate"></link><link href="./feeds/w18-xue-xi-aixin-de-41123224.atom.xml" rel="self"></link><id>./</id><updated>2024-06-26T15:21:07+08:00</updated><entry><title>Learning ai 41123224</title><link href="./w18%20%E5%AD%B8%E7%BF%92AI%E5%BF%83%E5%BE%97%2041123224.html" rel="alternate"></link><published>2024-06-25T16:58:00+08:00</published><updated>2024-06-26T15:21:07+08:00</updated><author><name>41123224</name></author><id>tag:None,2024-06-25:./w18 學習AI心得 41123224.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第十八週, 自我反思，這學期學到甚麼&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第十八週, 自我反思，這學期學到甚麼&lt;/p&gt;
 
 
@@ -80,5 +80,26 @@
 該平台利用先進的自然語言處理技術，讓用戶能夠以自然語言進行搜索，而非傳統的關鍵字搜索。這使得用戶能夠更方便地找到他們需要的信息，無需精確匹配關鍵字。&lt;/p&gt;
 &lt;p&gt;在這個網站上，用戶可以輸入任何他們感興趣的問題或主題，系統會根據用戶的查詢，自動生成相關的回答和資訊。這些回答通常是綜合了多個來源的信息，並以簡潔明瞭的方式呈現，讓用戶快速獲得所需的知識。&lt;/p&gt;
 &lt;p&gt;此外，Perplexity.ai 還具備自學能力，隨著時間的推移和用戶的使用，不斷優化其搜索算法和結果，提供更加精準和相關的回答。這使得它在眾多搜索引擎中脫穎而出，成為一個強大的工具，特別適合那些需要深入研究或快速獲取高質量信息的用戶。&lt;/p&gt;
+&lt;h2&gt;Question.ai&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.questionai.com/"&gt;Question.ai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;是一個專注於提供即時答案和信息查詢的智能平台。該網站利用先進的人工智能技術來處理用戶的提問，並提供準確且相關的回答。以下是該網站的主要功能介紹：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;智能問答：Question.ai 允許用戶輸入任何問題，平台的 AI 系統會快速分析並生成答案。這些答案通常綜合了多個來源的信息，確保回答的準確性和全面性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;自然語言處理：用戶可以以自然語言提出問題，而不需要使用特定的關鍵詞。這使得查詢過程更加直觀和便捷，適合各類用戶使用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;多領域支持：無論是科學、技術、歷史、文化還是日常生活中的問題，Question.ai 都能提供相關的答案。這使得它成為一個全能型的問答平台，適用於多種情境。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;即時回應：平台致力於提供快速回應，讓用戶在短時間內獲得所需的信息，提升了搜索效率和用戶體驗。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;學習和改進：Question.ai 的 AI 系統會不斷學習和改進，隨著用戶的使用增多，系統的回答質量和準確性也會提升。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Question.ai 旨在通過先進的人工智能技術，為用戶提供即時、準確的答案，提升信息查詢的便利性和效率。這使得它成為一個強大的工具，適合需要快速獲取可靠信息的各類用戶。&lt;/p&gt;
 &lt;h2&gt;心得&lt;/h2&gt;
 &lt;p&gt;在國立虎尾科技大學機械設計工程系的協同產品設計實習課程中，我學到了如何運用多種先進的工具和平台進行協同設計及開發。這包括使用Web-based環境如Github和Onshape，近端套件如CoppeliaSim，以及Odoo PLM系統來有效地進行產品設計和管理。通過每週的網誌撰寫、上課摘要整理和分組報告執行，我們不僅加深了對課程內容的理解，還學會了如何有效地組織和協作。期中和期末的LaTeX報告與影片簡報更加深了我對產品生命週期管理的理解，從設計到開發再到生產階段，每個階段的具體操作和協同工作都讓我受益匪淺。這段學習經歷不僅擴展了我的技術能力，也提升了我的團隊合作和問題解決能力，為未來的職業發展打下了堅實的基礎。&lt;/p&gt;</content><category term="w18 學習AI心得 41123224"></category><category term="學習AI心得 41123224"></category></entry></feed>
